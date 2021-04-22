@@ -36,29 +36,27 @@ section.jumbotron{
 
 /* section container */
 section.container{
-    height: 600px; /* da togliere */
-    background-color: cyan;
-    padding-top: 100px;
+    background-color: blue; /* da togliere */
 }
 
-div.clearfix{
-    height: 100%;
-    background-color: blue; /* da togliere */
-    padding: 20px 0;
+.heading{
+    height: 100px; /* da togliere */
+    background-color: cyan; /* da togliere */
+    margin-bottom: 20px;
 }
 
 aside.content{
-    height: 100%; /* da togliere */
+    height: 300px; /* da togliere */
     width: 25%; /* da togliere */
     background-color: cyan; /* da togliere */
+    margin-bottom: 20px;
 }
 
 section.content-central{
-    height: 100%; /* da togliere */
-    
-    margin: 0 20px;
+    height: 300px; /* da togliere */
+    margin: 0 10px 20px;
     background-color: cyan; /* da togliere */
-    width: calc(50% - 40px);
+    width: calc(50% - 20px);
 }
 
 /* piè di pagina */
