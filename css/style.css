@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.float-left{
+    float: left;
+}
+
 /* header */
 header{
     height: 100px;
@@ -12,14 +16,26 @@ header{
 }
 
 /* main */
-main{
-    height: 100vh; /* da togliere */
-    background-color: cyan; /* da togliere */
-}
 
 /* section jumbotron */
 section.jumbotron{
     height: 400px; /* da togliere */
     background-color: yellow; /* da togliere */
     margin: 20px 0;
+}
+
+/* section container */
+section.container{
+    height: 600px;
+    background-color: cyan;
+}
+
+.clearfix{
+    border: 2px solid black; /* da togliere */
+}
+
+aside.content-left{
+    height: 80px; /* da togliere */
+    width: 30px; /* da togliere */
+    background-color: red; /* da togliere */
 }
