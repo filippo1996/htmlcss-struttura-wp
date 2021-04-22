@@ -1,0 +1,12 @@
+/* formattazione */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    height: 100px;
+    background-color: violet;
+}
