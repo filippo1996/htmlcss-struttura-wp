@@ -57,4 +57,11 @@ section.content-central{
     width: calc(50% - 40px);
 }
 
+/* piè di pagina */
+footer{
+    height: 100px;
+    margin-top: 20px;
+    background-color: fuchsia;
+}
+
 
