@@ -39,3 +39,9 @@ aside.content-left{
     width: 30px; /* da togliere */
     background-color: red; /* da togliere */
 }
+
+section.content-central{
+    height: 80px; /* da togliere */
+    width: 30px; /* da togliere */
+    background-color: saddlebrown; /* da togliere */
+}
