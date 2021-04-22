@@ -9,6 +9,12 @@
     float: left;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* header */
 header{
     height: 100px;
@@ -28,20 +34,27 @@ section.jumbotron{
 section.container{
     height: 600px;
     background-color: cyan;
+    padding-top: 100px;
 }
 
-.clearfix{
-    border: 2px solid black; /* da togliere */
+div.clearfix{
+    height: 100%;
+    background-color: blue; /* da togliere */
+    padding: 20px 0;
 }
 
 aside.content{
-    height: 80px; /* da togliere */
-    width: 30px; /* da togliere */
-    background-color: red; /* da togliere */
+    height: 100%; /* da togliere */
+    width: 25%; /* da togliere */
+    background-color: cyan; /* da togliere */
 }
 
 section.content-central{
-    height: 80px; /* da togliere */
-    width: 30px; /* da togliere */
-    background-color: saddlebrown; /* da togliere */
+    height: 100%; /* da togliere */
+    
+    margin: 0 20px;
+    background-color: cyan; /* da togliere */
+    width: calc(50% - 40px);
 }
+
+
