@@ -34,7 +34,7 @@ section.container{
     border: 2px solid black; /* da togliere */
 }
 
-aside.content-left{
+aside.content{
     height: 80px; /* da togliere */
     width: 30px; /* da togliere */
     background-color: red; /* da togliere */
