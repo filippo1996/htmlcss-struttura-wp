@@ -10,3 +10,16 @@ header{
     height: 100px;
     background-color: violet;
 }
+
+/* main */
+main{
+    height: 100vh; /* da togliere */
+    background-color: cyan; /* da togliere */
+}
+
+/* section jumbotron */
+section.jumbotron{
+    height: 400px; /* da togliere */
+    background-color: yellow; /* da togliere */
+    margin: 20px 0;
+}
